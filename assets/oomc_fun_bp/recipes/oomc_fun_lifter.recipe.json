@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:lifter"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "#@#",
+      "###"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:iron_bars"
+      },
+      "#": {
+        "item": "oomc_fun:oo_stone"
+      },
+      "@": {
+        "item": "minecraft:smoker"
+      }
+    },
+    "result": {
+      "item": "oomc_fun:lifter",
+      "count": 8
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:topping_bp_pufferfish"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P",
+      "#"
+    ],
+    "key": {
+      "P": {
+        "item": "oomc_fun:bp"
+      },
+      "#": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    "result": {
+      "item": "minecraft:cooked_salmon",
+      "count": 1
+    }
+  }
+}

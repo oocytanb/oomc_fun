@@ -1,0 +1,18 @@
+{
+  "skins": [
+    {
+      "localization_name": "oo_joy",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "oomc_fun_oo_joy.png",
+      "type": "free"
+    },
+    {
+        "localization_name": "ooco_heart",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "oomc_fun_ooco_heart.png",
+        "type": "free"
+    }
+  ],
+  "serialize_name": "oomc_fun_sp",
+  "localization_name": "oomc_fun_sp"
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "oomc_fun_rp",
+    "name": "oomc_fun_rp",
+    "uuid": "7df75aab-0326-4ce8-8a24-959e4d0b9125",
+    "version": [ 0, 2, 0 ],
+    "min_engine_version": [ 1, 16, 200 ]
+  },
+  "modules": [
+    {
+      "description": "oomc_fun_rp",
+      "type": "resources",
+      "uuid": "39847d56-32da-40cc-8bc4-e33d74026219",
+      "version": [ 0, 2, 0 ]
+    }
+  ]
+}

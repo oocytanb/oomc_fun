@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:conveyor"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "#@#",
+      "###"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:bamboo"
+      },
+      "#": {
+        "item": "oomc_fun:ooco_stone"
+      },
+      "@": {
+        "item": "minecraft:loom"
+      }
+    },
+    "result": {
+      "item": "oomc_fun:conveyor",
+      "count": 8
+    }
+  }
+}

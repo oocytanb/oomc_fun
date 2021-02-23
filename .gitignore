@@ -105,3 +105,9 @@ dist
 
 # vscode
 .vscode/
+
+# Visual Studio
+.vs/
+
+# build output
+/build/

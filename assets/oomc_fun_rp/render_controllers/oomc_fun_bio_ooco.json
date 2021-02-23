@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.100",
+  "render_controllers": {
+    "controller.render.oomc_fun_bio_ooco": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

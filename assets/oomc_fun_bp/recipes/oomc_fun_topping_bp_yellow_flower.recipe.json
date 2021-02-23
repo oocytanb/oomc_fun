@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:topping_bp_yellow_flower"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P",
+      "#"
+    ],
+    "key": {
+      "P": {
+        "item": "oomc_fun:bp"
+      },
+      "#": {
+        "item": "minecraft:yellow_flower"
+      }
+    },
+    "result": {
+      "item": "minecraft:dried_kelp",
+      "count": 1
+    }
+  }
+}

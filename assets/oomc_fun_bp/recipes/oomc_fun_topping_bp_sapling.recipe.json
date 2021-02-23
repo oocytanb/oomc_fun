@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:topping_bp_sapling"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P",
+      "#"
+    ],
+    "key": {
+      "P": {
+        "item": "oomc_fun:bp"
+      },
+      "#": {
+        "item": "minecraft:sapling"
+      }
+    },
+    "result": {
+      "item": "minecraft:charcoal",
+      "count": 1
+    }
+  }
+}

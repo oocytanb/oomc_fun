@@ -1,0 +1,53 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "oomc_fun_rp",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "oomc_fun_oo_stone": {
+      "textures": "textures/oomc_fun_oo_stone"
+    },
+    "oomc_fun_ooco_stone": {
+      "textures": "textures/oomc_fun_ooco_stone"
+    },
+    "oomc_fun_bp_maker": {
+      "textures": "textures/oomc_fun_bp_maker"
+    },
+    "oomc_fun_conveyor_down": {
+      "textures": "textures/oomc_fun_conveyor_down"
+    },
+    "oomc_fun_conveyor_east": {
+      "textures": "textures/oomc_fun_conveyor_side"
+    },
+    "oomc_fun_conveyor_north": {
+      "textures": "textures/oomc_fun_conveyor_north"
+    },
+    "oomc_fun_conveyor_south": {
+      "textures": "textures/oomc_fun_conveyor_south"
+    },
+    "oomc_fun_conveyor_up": {
+      "textures": "textures/oomc_fun_conveyor_up"
+    },
+    "oomc_fun_conveyor_west": {
+      "textures": "textures/oomc_fun_conveyor_side"
+    },
+    "oomc_fun_lifter_down": {
+      "textures": "textures/oomc_fun_lifter_down"
+    },
+    "oomc_fun_lifter_east": {
+      "textures": "textures/oomc_fun_lifter_side"
+    },
+    "oomc_fun_lifter_north": {
+      "textures": "textures/oomc_fun_lifter_north"
+    },
+    "oomc_fun_lifter_south": {
+      "textures": "textures/oomc_fun_lifter_south"
+    },
+    "oomc_fun_lifter_up": {
+      "textures": "textures/oomc_fun_lifter_up"
+    },
+    "oomc_fun_lifter_west": {
+      "textures": "textures/oomc_fun_lifter_side"
+    }
+  }
+}

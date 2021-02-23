@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "oomc_fun:bp_maker",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

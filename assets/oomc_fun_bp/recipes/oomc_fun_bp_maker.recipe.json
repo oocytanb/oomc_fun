@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:bp_maker"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "#@#",
+      "###"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:iron_ingot"
+      },
+      "#": {
+        "item": "oomc_fun:oo_stone"
+      },
+      "@": {
+        "item": "minecraft:smithing_table"
+      }
+    },
+    "result": {
+      "item": "oomc_fun:bp_maker",
+      "count": 1
+    }
+  }
+}

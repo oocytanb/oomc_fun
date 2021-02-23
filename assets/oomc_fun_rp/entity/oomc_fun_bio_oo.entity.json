@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oomc_fun:bio_oo",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/oomc_fun_bio_oo"
+      },
+      "geometry": {
+        "default": "geometry.oomc_fun_bio_oo"
+      },
+      "render_controllers": [ "controller.render.oomc_fun_bio_oo" ],
+      "spawn_egg": {
+        "base_color": "#00a95f",
+        "overlay_color": "#00e582"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "oomc_fun_oo_stone": {
+    "sound": "stone"
+  },
+  "oomc_fun_ooco_stone": {
+    "sound": "stone"
+  },
+  "oomc_fun_bp_maker": {
+    "sound": "stone"
+  },
+  "oomc_fun_conveyor": {
+    "sound": "stone"
+  },
+  "oomc_fun_lifter": {
+    "sound": "stone"
+  }
+}
