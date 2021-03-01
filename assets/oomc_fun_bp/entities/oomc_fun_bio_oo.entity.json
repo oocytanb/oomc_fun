@@ -13,8 +13,8 @@
           "value":0.75
         },
         "minecraft:ageable": {
-          "duration": 120,
-          "feed_items": "wheat_seeds",
+          "duration": 360,
+          "feed_items": "oomc_fun:rice",
           "grow_up": {
             "event": "minecraft:ageable_grow_up",
             "target": "self"
@@ -40,7 +40,7 @@
         },
         "minecraft:breedable": {
           "require_tame": false,
-          "breed_items": "wheat_seeds",
+          "breed_items": "oomc_fun:rice",
           "breeds_with": {
             "mate_type": "oomc_fun:bio_ooco",
             "baby_type": "oomc_fun:bio_oo",
@@ -117,7 +117,7 @@
         "priority": 4,
         "speed_multiplier": 1.25,
         "items": [
-          "wheat_seeds"
+          "oomc_fun:rice"
         ]
       },
       "minecraft:behavior.follow_parent": {

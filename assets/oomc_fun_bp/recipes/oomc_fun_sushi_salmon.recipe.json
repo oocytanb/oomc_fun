@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "oomc_fun:sushi_salmon"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "oomc_fun:rice"
+      },
+      {
+        "item": "oomc_fun:vinegar"
+      },
+      {
+        "item": "minecraft:sugar"
+      }
+    ],
+    "result": {
+      "item": "oomc_fun:sushi"
+    }
+  }
+}

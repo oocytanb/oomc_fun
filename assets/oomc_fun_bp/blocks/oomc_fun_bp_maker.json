@@ -12,15 +12,13 @@
       "minecraft:display_name": "oomc_fun:bp_maker",
       "minecraft:loot": "loot_tables/blocks/oomc_fun_bp_maker.loot.json",
       "minecraft:destroy_time": 2.0,
-      "minecraft:explosion_resistance": 1,
-      "minecraft:friction": 0.5,
       "minecraft:map_color": "#303030",
       "minecraft:block_light_absorption": 0,
       "minecraft:block_light_emission": 0,
       "minecraft:geometry": "geometry.oomc_fun_bp_maker",
       "minecraft:material_instances": {
         "*": {
-          "texture": "oomc_fun_bp_maker",
+          "texture": "oomc_fun:bp_maker",
           "render_method": "opaque"
         }
       },
@@ -38,8 +36,8 @@
         "looping": true,
         "range": [ 0.2, 0.2 ],
         "on_tick": {
-           "event": "oomc_fun:process",
-           "target": "self"
+          "event": "oomc_fun:process",
+          "target": "self"
         }
       }
     },
@@ -50,15 +48,14 @@
         }
       },
       "oomc_fun:supply":{
-        "run_command":{
-           "command":"summon oomc_fun:construct_bp ~ ~ ~"
+        "run_command": {
+          "command":"summon oomc_fun:construct_bp ~ ~ ~"
         },
-        "decrement_stack":{
-        }
+        "decrement_stack": {}
       },
       "oomc_fun:process": {
         "run_command": {
-           "command": "function oomc_fun_bp_maker"
+          "command": "function oomc_fun_bp_maker"
         }
       }
     },

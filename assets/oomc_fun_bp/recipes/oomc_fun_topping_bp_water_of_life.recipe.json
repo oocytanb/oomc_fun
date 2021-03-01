@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "oomc_fun:topping_bp_bowl"
+      "identifier": "oomc_fun:topping_bp_water_of_life"
     },
     "tags": [ "crafting_table" ],
     "pattern": [
@@ -14,11 +14,11 @@
         "item": "oomc_fun:bp"
       },
       "#": {
-        "item": "minecraft:bowl"
+        "item": "oomc_fun:water_of_life"
       }
     },
     "result": {
-      "item": "minecraft:rabbit_stew",
+      "item": "oomc_fun:vinegar",
       "count": 1
     }
   }

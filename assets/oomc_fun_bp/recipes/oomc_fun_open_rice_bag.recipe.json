@@ -2,24 +2,20 @@
   "format_version": "1.16.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "oomc_fun:topping_bp_pufferfish"
+      "identifier": "oomc_fun:open_rice_bag"
     },
     "tags": [ "crafting_table" ],
     "pattern": [
-      "P",
       "#"
     ],
     "key": {
-      "P": {
-        "item": "oomc_fun:bp"
-      },
       "#": {
-        "item": "minecraft:pufferfish"
+        "item": "oomc_fun:rice_bag"
       }
     },
     "result": {
-      "item": "minecraft:cooked_salmon",
-      "count": 1
+      "item": "oomc_fun:rice",
+      "count": 8
     }
   }
 }

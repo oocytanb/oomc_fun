@@ -2,23 +2,24 @@
   "format_version": "1.16.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "oomc_fun:topping_bp_string"
+      "identifier": "oomc_fun:rice_bag"
     },
     "tags": [ "crafting_table" ],
     "pattern": [
-      "P",
-      "#"
+      "###",
+      "#P#",
+      "###"
     ],
     "key": {
-      "P": {
-        "item": "oomc_fun:bp"
-      },
       "#": {
-        "item": "minecraft:string"
+        "item": "oomc_fun:sheaf_of_rice"
+      },
+      "P": {
+        "item": "oomc_fun:rice"
       }
     },
     "result": {
-      "item": "minecraft:arrow",
+      "item": "oomc_fun:rice_bag",
       "count": 1
     }
   }

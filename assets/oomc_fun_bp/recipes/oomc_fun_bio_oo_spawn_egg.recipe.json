@@ -15,7 +15,7 @@
         "item": "minecraft:egg"
       },
       "#": {
-        "item": "minecraft:wheat_seeds"
+        "item": "oomc_fun:rice"
       }
     },
     "result": {

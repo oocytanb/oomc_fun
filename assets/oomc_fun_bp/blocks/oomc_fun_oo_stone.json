@@ -20,7 +20,7 @@
       "minecraft:unit_cube": {},
       "minecraft:material_instances": {
         "*": {
-          "texture": "oomc_fun_oo_stone",
+          "texture": "oomc_fun:oo_stone",
           "render_method": "opaque"
         }
       },

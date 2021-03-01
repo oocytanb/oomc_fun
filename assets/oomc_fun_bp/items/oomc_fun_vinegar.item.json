@@ -1,0 +1,48 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "oomc_fun:vinegar",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "oomc_fun:vinegar"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.potion"
+      },
+      "minecraft:use_duration": 1,
+      "minecraft:use_animation": "drink",
+      "minecraft:food": {
+        "nutrition": 0,
+        "can_always_eat": true,
+        "saturation_modifier": "poor",
+        "using_converts_to": "minecraft:glass_bottle",
+        "on_consume": {
+          "event": "oomc_fun:on_consumed"
+        }
+      }
+    },
+    "events": {
+      "oomc_fun:on_consumed": {
+        "sequence": [
+          {
+            "add_mob_effect": {
+              "effect": "haste",
+              "target": "holder",
+              "duration": 10,
+              "amplifier": 1.25
+            }
+          },
+          {
+            "run_command": {
+              "command": ["particle minecraft:totem_particle ~ ~1 ~"],
+              "target": "holder"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

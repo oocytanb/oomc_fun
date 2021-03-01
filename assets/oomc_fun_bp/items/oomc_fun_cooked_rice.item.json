@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "oomc_fun:cooked_rice",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "oomc_fun:cooked_rice"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.cookedFood"
+      },
+      "minecraft:use_duration": 1,
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation_modifier": "good"
+      }
+    }
+  }
+}

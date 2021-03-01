@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="oomc_fun_vinegar.svg"
+   inkscape:export-filename="../oomc_fun_rp/textures/oomc_fun_vinegar.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient916">
+      <stop
+         style="stop-color:#989944;stop-opacity:1"
+         offset="0"
+         id="stop912" />
+      <stop
+         style="stop-color:#e0e29c;stop-opacity:1"
+         offset="1"
+         id="stop914" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0.38570655 : 3.9332243 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="3.6301679 : 3.7902926 : 1"
+       inkscape:persp3d-origin="2.009595 : 0.93499737 : 1"
+       id="perspective916" />
+    <linearGradient
+       id="linearGradient6027"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#00a95f;stop-opacity:1;"
+         offset="0"
+         id="stop6025" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6070"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop6068" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient916"
+       id="linearGradient918"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9859969,0,0,1.0312959,0.206474,0.43686218)"
+       x1="1.5545754"
+       y1="3.2739549"
+       x2="2.4060128"
+       y2="0.97052246" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="17.370608"
+     inkscape:cy="22.756981"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1155"
+     inkscape:window-height="900"
+     inkscape:window-x="1333"
+     inkscape:window-y="107"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Copyright (c) 2021 oO (https://github.com/oocytanb)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g930"
+       transform="translate(0,0.16745716)">
+      <rect
+         style="fill:url(#linearGradient918);fill-opacity:1;stroke:none;stroke-width:0.266803;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect853"
+         width="1.3206966"
+         height="1.987313"
+         x="1.463168"
+         y="1.5882952"
+         ry="0.2652978" />
+      <rect
+         style="fill:#cfcfcf;fill-opacity:1;stroke:none;stroke-width:0.266803;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect908"
+         width="1.3206967"
+         height="1.0891865"
+         x="1.4631678"
+         y="2.0265114"
+         ry="0" />
+      <path
+         id="rect843"
+         style="fill:none;fill-opacity:1;stroke:#303027;stroke-width:0.500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         transform="scale(0.26458333)"
+         d="M 6.5390625,5.4882812 C 6.2960665,5.8476562 5.5039062,6.5460665 5.5039062,7.1015625 v 5.3906255 c 0,0.555495 0.4484103,1.003906 1.0039063,1.003906 h 2.984375 c 0.5554955,0 1.0039065,-0.448411 1.0039065,-1.003906 V 7.1015625 c 0,-0.555496 -0.854661,-1.1277959 -1.2226565,-1.6590459 C 8.991042,4.8888628 8.8134891,4.2887485 8.625,3.6992188 H 7.375 C 7.191121,4.3517313 6.8912978,4.9192857 6.5390625,5.4882812 Z"
+         sodipodi:nodetypes="csssssscccc" />
+      <rect
+         style="fill:#40402c;fill-opacity:1;stroke:#303027;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect857"
+         width="0.46187514"
+         height="0.4735682"
+         x="1.8857291"
+         y="0.39372307"
+         ry="0.049695391" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:0.263709px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0494454"
+         x="1.5875"
+         y="2.6235533"
+         id="text922"><tspan
+           sodipodi:role="line"
+           id="tspan920"
+           x="1.5875"
+           y="2.6235533"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.263709px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif Bold';fill:#303027;fill-opacity:1;stroke-width:0.0494454">Vinegar</tspan></text>
+    </g>
+  </g>
+</svg>

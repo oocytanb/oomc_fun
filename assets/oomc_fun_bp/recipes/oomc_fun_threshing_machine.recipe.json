@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oomc_fun:threshing_machine"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "#@#",
+      "###"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:chain"
+      },
+      "#": {
+        "item": "oomc_fun:oo_stone"
+      },
+      "@": {
+        "item": "minecraft:stonecutter_block"
+      }
+    },
+    "result": {
+      "item": "oomc_fun:threshing_machine",
+      "count": 1
+    }
+  }
+}

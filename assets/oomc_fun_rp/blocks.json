@@ -1,17 +1,29 @@
 {
-  "oomc_fun_oo_stone": {
+  "oomc_fun:oo_stone": {
     "sound": "stone"
   },
-  "oomc_fun_ooco_stone": {
+  "oomc_fun:ooco_stone": {
     "sound": "stone"
   },
-  "oomc_fun_bp_maker": {
+  "oomc_fun:bp_maker": {
     "sound": "stone"
   },
-  "oomc_fun_conveyor": {
+  "oomc_fun:conveyor": {
     "sound": "stone"
   },
-  "oomc_fun_lifter": {
+  "oomc_fun:lifter": {
     "sound": "stone"
+  },
+  "oomc_fun:threshing_machine": {
+    "sound": "stone"
+  },
+  "oomc_fun:rice_crop_stage_0": {
+    "sound": "grass"
+  },
+  "oomc_fun:rice_crop_stage_1": {
+    "sound": "grass"
+  },
+  "oomc_fun:rice_crop_stage_2": {
+    "sound": "grass"
   }
 }

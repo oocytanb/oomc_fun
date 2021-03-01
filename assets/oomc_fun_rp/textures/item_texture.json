@@ -2,8 +2,32 @@
   "resource_pack_name": "oomc_fun_rp",
   "texture_name": "atlas.items",
   "texture_data": {
-    "oomc_fun_bp": {
+    "oomc_fun:bp": {
       "textures": "textures/oomc_fun_bp"
+    },
+    "oomc_fun:rice": {
+      "textures": "textures/oomc_fun_rice"
+    },
+    "oomc_fun:sheaf_of_rice": {
+      "textures": "textures/oomc_fun_sheaf_of_rice"
+    },
+    "oomc_fun:rice_bag": {
+      "textures": "textures/oomc_fun_rice_bag"
+    },
+    "oomc_fun:cooked_rice": {
+      "textures": "textures/oomc_fun_cooked_rice"
+    },
+    "oomc_fun:oyakodon": {
+      "textures": "textures/oomc_fun_oyakodon"
+    },
+    "oomc_fun:sushi": {
+      "textures": "textures/oomc_fun_sushi"
+    },
+    "oomc_fun:water_of_life": {
+      "textures": "textures/oomc_fun_water_of_life"
+    },
+    "oomc_fun:vinegar": {
+      "textures": "textures/oomc_fun_vinegar"
     }
   }
 }

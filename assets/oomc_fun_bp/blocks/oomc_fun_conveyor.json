@@ -20,27 +20,27 @@
       "minecraft:unit_cube": {},
       "minecraft:material_instances": {
         "down": {
-          "texture": "oomc_fun_conveyor_down",
+          "texture": "oomc_fun:conveyor_down",
           "render_method": "opaque"
         },
         "east": {
-          "texture": "oomc_fun_conveyor_east",
+          "texture": "oomc_fun:conveyor_east",
           "render_method": "opaque"
         },
         "north": {
-          "texture": "oomc_fun_conveyor_north",
+          "texture": "oomc_fun:conveyor_north",
           "render_method": "opaque"
         },
         "south": {
-          "texture": "oomc_fun_conveyor_south",
+          "texture": "oomc_fun:conveyor_south",
           "render_method": "opaque"
         },
         "up": {
-          "texture": "oomc_fun_conveyor_up",
+          "texture": "oomc_fun:conveyor_up",
           "render_method": "opaque"
         },
         "west": {
-          "texture": "oomc_fun_conveyor_west",
+          "texture": "oomc_fun:conveyor_west",
           "render_method": "opaque"
         }
       },

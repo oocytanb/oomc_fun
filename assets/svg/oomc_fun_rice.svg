@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="oomc_fun_rice.svg"
+   inkscape:export-filename="../oomc_fun_rp/textures/oomc_fun_rice.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6027"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#00a95f;stop-opacity:1;"
+         offset="0"
+         id="stop6025" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6070"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop6068" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="0.48294547"
+     inkscape:cy="10.003864"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1284"
+     inkscape:window-height="708"
+     inkscape:window-x="1294"
+     inkscape:window-y="118"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Copyright (c) 2021 oO (https://github.com/oocytanb)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#d9cc8c;fill-opacity:1;stroke:#292411;stroke-width:0.0897669;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rice"
+       cx="1.5990176"
+       cy="2.6225493"
+       rx="0.10214245"
+       ry="0.23560262" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2756"
+       width="100%"
+       height="100%"
+       transform="rotate(38.918062,1.3675346,3.8927773)"
+       inkscape:transform-center-x="0.1252826"
+       inkscape:transform-center-y="-0.083521731" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2782"
+       width="100%"
+       height="100%"
+       transform="rotate(148.55087,2.3046447,3.1477397)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2798"
+       width="100%"
+       height="100%"
+       transform="rotate(6.0264003,8.1796429,0.18330858)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2800"
+       width="100%"
+       height="100%"
+       transform="rotate(-33.313651,0.73952309,1.4292274)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2802"
+       width="100%"
+       height="100%"
+       transform="rotate(-115.67638,1.197274,2.8533931)"
+       inkscape:transform-center-x="-0.13664213"
+       inkscape:transform-center-y="-0.09086146" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2804"
+       width="100%"
+       height="100%"
+       transform="rotate(21.406058,3.218949,5.9140252)"
+       inkscape:transform-center-x="-0.00047719619"
+       inkscape:transform-center-y="-0.016697548" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rice"
+       id="use2821"
+       width="100%"
+       height="100%"
+       transform="rotate(111.34348,1.2037177,2.7964146)" />
+  </g>
+</svg>

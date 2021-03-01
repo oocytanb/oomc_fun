@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "oomc_fun:rice_crop_stage_2"
+    },
+    "components": {
+      "tag:crops": {},
+      "minecraft:display_name": "oomc_fun:rice_crop",
+      "minecraft:loot": "loot_tables/blocks/oomc_fun_rice_crop_stage_2.loot.json",
+      "minecraft:destroy_time": 0,
+      "minecraft:map_color": "#f0f0f0",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:block_light_emission": 0,
+      "minecraft:geometry": "geometry.oomc_fun_rice_crop",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "oomc_fun:rice_crop_stage_2",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:entity_collision": false,
+      "minecraft:pick_collision": true
+    }
+  }
+}

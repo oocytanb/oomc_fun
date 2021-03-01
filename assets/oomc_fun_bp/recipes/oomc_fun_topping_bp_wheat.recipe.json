@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "oomc_fun:topping_bp_spider_eye"
+      "identifier": "oomc_fun:topping_bp_wheat"
     },
     "tags": [ "crafting_table" ],
     "pattern": [
@@ -14,11 +14,11 @@
         "item": "oomc_fun:bp"
       },
       "#": {
-        "item": "minecraft:spider_eye"
+        "item": "minecraft:wheat"
       }
     },
     "result": {
-      "item": "minecraft:golden_carrot",
+      "item": "oomc_fun:sheaf_of_rice",
       "count": 1
     }
   }

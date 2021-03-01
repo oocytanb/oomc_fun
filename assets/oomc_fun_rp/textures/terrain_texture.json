@@ -4,50 +4,77 @@
   "resource_pack_name": "oomc_fun_rp",
   "texture_name": "atlas.terrain",
   "texture_data": {
-    "oomc_fun_oo_stone": {
+    "oomc_fun:oo_stone": {
       "textures": "textures/oomc_fun_oo_stone"
     },
-    "oomc_fun_ooco_stone": {
+    "oomc_fun:ooco_stone": {
       "textures": "textures/oomc_fun_ooco_stone"
     },
-    "oomc_fun_bp_maker": {
+    "oomc_fun:bp_maker": {
       "textures": "textures/oomc_fun_bp_maker"
     },
-    "oomc_fun_conveyor_down": {
+    "oomc_fun:conveyor_down": {
       "textures": "textures/oomc_fun_conveyor_down"
     },
-    "oomc_fun_conveyor_east": {
+    "oomc_fun:conveyor_east": {
       "textures": "textures/oomc_fun_conveyor_side"
     },
-    "oomc_fun_conveyor_north": {
+    "oomc_fun:conveyor_north": {
       "textures": "textures/oomc_fun_conveyor_north"
     },
-    "oomc_fun_conveyor_south": {
+    "oomc_fun:conveyor_south": {
       "textures": "textures/oomc_fun_conveyor_south"
     },
-    "oomc_fun_conveyor_up": {
+    "oomc_fun:conveyor_up": {
       "textures": "textures/oomc_fun_conveyor_up"
     },
-    "oomc_fun_conveyor_west": {
+    "oomc_fun:conveyor_west": {
       "textures": "textures/oomc_fun_conveyor_side"
     },
-    "oomc_fun_lifter_down": {
+    "oomc_fun:lifter_down": {
       "textures": "textures/oomc_fun_lifter_down"
     },
-    "oomc_fun_lifter_east": {
+    "oomc_fun:lifter_east": {
       "textures": "textures/oomc_fun_lifter_side"
     },
-    "oomc_fun_lifter_north": {
+    "oomc_fun:lifter_north": {
       "textures": "textures/oomc_fun_lifter_north"
     },
-    "oomc_fun_lifter_south": {
+    "oomc_fun:lifter_south": {
       "textures": "textures/oomc_fun_lifter_south"
     },
-    "oomc_fun_lifter_up": {
+    "oomc_fun:lifter_up": {
       "textures": "textures/oomc_fun_lifter_up"
     },
-    "oomc_fun_lifter_west": {
+    "oomc_fun:lifter_west": {
       "textures": "textures/oomc_fun_lifter_side"
+    },
+    "oomc_fun:threshing_machine_down": {
+      "textures": "textures/oomc_fun_threshing_machine_down"
+    },
+    "oomc_fun:threshing_machine_east": {
+      "textures": "textures/oomc_fun_threshing_machine_east"
+    },
+    "oomc_fun:threshing_machine_north": {
+      "textures": "textures/oomc_fun_threshing_machine_north"
+    },
+    "oomc_fun:threshing_machine_south": {
+      "textures": "textures/oomc_fun_threshing_machine_south"
+    },
+    "oomc_fun:threshing_machine_up": {
+      "textures": "textures/oomc_fun_threshing_machine_up"
+    },
+    "oomc_fun:threshing_machine_west": {
+      "textures": "textures/oomc_fun_threshing_machine_west"
+    },
+    "oomc_fun:rice_crop_stage_0": {
+      "textures": "textures/blocks/wheat_stage_2"
+    },
+    "oomc_fun:rice_crop_stage_1": {
+      "textures": "textures/blocks/wheat_stage_4"
+    },
+    "oomc_fun:rice_crop_stage_2": {
+      "textures": "textures/blocks/wheat_stage_7"
     }
   }
 }

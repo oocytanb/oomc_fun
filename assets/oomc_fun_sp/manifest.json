@@ -3,13 +3,13 @@
   "header": {
     "name": "oomc_fun_sp",
     "uuid": "4e04d1d2-878d-4d49-b9f0-d8e8e2ab348d",
-    "version": [0, 2, 0]
+    "version": [0, 3, 0]
   },
   "modules": [
     {
       "type": "skin_pack",
       "uuid": "44582e6c-55ce-4595-b8ae-f8e8bd0129d0",
-      "version": [0, 2, 0]
+      "version": [0, 3, 0]
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "oomc_fun:sheaf_of_rice",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "oomc_fun:sheaf_of_rice"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.crop"
+      }
+    }
+  }
+}
