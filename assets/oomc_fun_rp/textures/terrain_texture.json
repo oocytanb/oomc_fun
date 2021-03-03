@@ -75,6 +75,9 @@
     },
     "oomc_fun:rice_crop_stage_2": {
       "textures": "textures/blocks/wheat_stage_7"
+    },
+    "oomc_fun:invisible_stone": {
+      "textures": "textures/oomc_fun_invisible_stone"
     }
   }
 }

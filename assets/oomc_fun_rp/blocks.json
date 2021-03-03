@@ -25,5 +25,8 @@
   },
   "oomc_fun:rice_crop_stage_2": {
     "sound": "grass"
+  },
+  "oomc_fun:invisible_stone": {
+    "sound": "stone"
   }
 }

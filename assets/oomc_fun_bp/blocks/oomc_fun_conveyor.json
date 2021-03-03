@@ -12,8 +12,6 @@
       "minecraft:display_name": "oomc_fun:conveyor",
       "minecraft:loot": "loot_tables/blocks/oomc_fun_conveyor.loot.json",
       "minecraft:destroy_time": 2.0,
-      "minecraft:explosion_resistance": 1,
-      "minecraft:friction": 0.5,
       "minecraft:map_color": "#303030",
       "minecraft:block_light_absorption": 0,
       "minecraft:block_light_emission": 0,

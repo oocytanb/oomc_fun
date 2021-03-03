@@ -12,7 +12,7 @@
     ],
     "key": {
       "P": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:iron_block"
       },
       "#": {
         "item": "oomc_fun:oo_stone"

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "oomc_fun:invisible_stone",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

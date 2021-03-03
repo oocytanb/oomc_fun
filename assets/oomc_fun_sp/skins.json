@@ -11,6 +11,12 @@
         "geometry": "geometry.humanoid.custom",
         "texture": "oomc_fun_ooco_heart.png",
         "type": "free"
+    },
+    {
+        "localization_name": "invisible",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "oomc_fun_invisible.png",
+        "type": "free"
     }
   ],
   "serialize_name": "oomc_fun_sp",

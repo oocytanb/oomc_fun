@@ -5,6 +5,7 @@ tile.oomc_fun:conveyor.name=P 駆動型コンベヤ	#
 tile.oomc_fun:lifter.name=P 駆動型リフター	#
 tile.oomc_fun:threshing_machine.name=脱穀機	#
 tile.oomc_fun:rice_crop.name=稲作	#
+tile.oomc_fun:invisible_stone.name=不可視ストーン	#
 item.spawn_egg.entity.oomc_fun:bio_oo.name=生物の oO をスポーンさせる	#
 item.spawn_egg.entity.oomc_fun:bio_ooco.name=生物の oOCo をスポーンさせる	#
 item.oomc_fun:bp=BP	#

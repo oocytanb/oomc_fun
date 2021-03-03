@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "oomc_fun:invisible_stone"
+    },
+    "components": {
+      "tag:stone": {},
+      "minecraft:display_name": "oomc_fun:invisible_stone",
+      "minecraft:loot": "loot_tables/blocks/oomc_fun_invisible_stone.loot.json",
+      "minecraft:destroy_time": 0,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:block_light_emission": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "oomc_fun:invisible_stone",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:entity_collision": true,
+      "minecraft:pick_collision": true
+    }
+  }
+}

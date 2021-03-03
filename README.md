@@ -1,7 +1,9 @@
 # oomc_fun
 
-これは [Add-Ons for Bedrock Edition](https://www.minecraft.net/addons/) について学ぶための、実験的なプロジェクトです。
-いくつかのブロックやレシピなどの、ゲーム要素を追加します。
+これは [Add-Ons for Bedrock Edition](https://www.minecraft.net/addons/) について学ぶための、実験的なプロジェクトです。  
+いくつかのゲーム要素を追加します。
+
+**このアドオンに登場するものは、架空のものです。実在のものとは関係ありません。**
 
 ## Supported Locales
 
@@ -11,6 +13,10 @@
 ## Setup Addon
 
 [アドオンのセットアップ | Setup Addon](docs/setup_addon.md)
+
+## Gameplay
+
+[ゲームプレイ | Gameplay](docs/play_addon.md)
 
 ## Build
 
