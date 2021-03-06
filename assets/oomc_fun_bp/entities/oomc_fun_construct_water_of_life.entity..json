@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "oomc_fun:construct_water_of_life",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:scale": {
+        "value": 0
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "none",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/oomc_fun_construct_water_of_life.loot.json"
+      }
+    }
+  }
+}

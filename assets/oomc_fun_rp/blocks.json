@@ -17,6 +17,18 @@
   "oomc_fun:threshing_machine": {
     "sound": "stone"
   },
+  "oomc_fun:brewing_container_stage_0": {
+    "sound": "wood"
+  },
+  "oomc_fun:brewing_container_stage_1": {
+    "sound": "wood"
+  },
+  "oomc_fun:brewing_container_stage_2": {
+    "sound": "wood"
+  },
+  "oomc_fun:brewing_container_stage_3": {
+    "sound": "wood"
+  },
   "oomc_fun:rice_crop_stage_0": {
     "sound": "grass"
   },

@@ -4,7 +4,7 @@
     "description": "oomc_fun_bp",
     "name": "oomc_fun_bp",
     "uuid": "d1680ac8-ceb7-4ff1-bf1c-aa447ff1ccc0",
-    "version": [ 0, 3, 0 ],
+    "version": [ 0, 5, 0 ],
     "min_engine_version": [ 1, 16, 200 ]
   },
   "modules": [
@@ -12,13 +12,13 @@
       "description": "oomc_fun_bp",
       "type": "data",
       "uuid": "912adbfd-0e92-4f82-8436-7e6f7021c4da",
-      "version": [ 0, 3, 0 ]
+      "version": [ 0, 5, 0 ]
     }
   ],
   "dependencies": [
     {
       "uuid": "7df75aab-0326-4ce8-8a24-959e4d0b9125",
-      "version": [ 0, 3, 0 ]
+      "version": [ 0, 5, 0 ]
     }
   ]
 }

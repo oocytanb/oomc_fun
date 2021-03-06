@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "oomc_fun:lifter"
+      "identifier": "oomc_fun:brewing_container_stage_0"
     },
     "tags": [ "crafting_table" ],
     "pattern": [
@@ -12,18 +12,18 @@
     ],
     "key": {
       "P": {
-        "item": "minecraft:iron_bars"
+        "item": "minecraft:wooden_slab"
       },
       "#": {
-        "item": "oomc_fun:ooco_stone"
+        "item": "oomc_fun:oo_stone"
       },
       "@": {
-        "item": "minecraft:smithing_table"
+        "item": "minecraft:barrel"
       }
     },
     "result": {
-      "item": "oomc_fun:lifter",
-      "count": 8
+      "item": "oomc_fun:brewing_container_stage_0",
+      "count": 1
     }
   }
 }

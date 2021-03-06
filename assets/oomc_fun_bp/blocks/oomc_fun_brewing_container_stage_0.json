@@ -2,23 +2,23 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "oomc_fun:bp_maker",
+      "identifier": "oomc_fun:brewing_container_stage_0",
       "properties": {
         "oomc_fun:block_facing": [2, 3, 4, 5]
       }
     },
     "components": {
       "tag:stone": {},
-      "minecraft:display_name": "oomc_fun:bp_maker",
-      "minecraft:loot": "loot_tables/blocks/oomc_fun_bp_maker.loot.json",
+      "minecraft:display_name": "oomc_fun:brewing_container",
+      "minecraft:loot": "loot_tables/blocks/oomc_fun_brewing_container.loot.json",
       "minecraft:destroy_time": 2.0,
       "minecraft:map_color": "#303030",
       "minecraft:block_light_absorption": 0,
       "minecraft:block_light_emission": 0,
-      "minecraft:geometry": "geometry.oomc_fun_bp_maker",
+      "minecraft:geometry": "geometry.oomc_fun_brewing_container_stage_0",
       "minecraft:material_instances": {
         "*": {
-          "texture": "oomc_fun:bp_maker",
+          "texture": "oomc_fun:brewing_container_stage_0",
           "render_method": "opaque"
         }
       },
@@ -30,7 +30,7 @@
       "minecraft:on_interact":{
         "target":"other",
         "event":"oomc_fun:supply",
-        "condition":"query.get_equipped_item_name == 'dirt' || query.get_equipped_item_name == 'cobblestone' || query.get_equipped_item_name == 'granite' || query.get_equipped_item_name == 'diorite' || query.get_equipped_item_name == 'andesite' || query.get_equipped_item_name == 'sand' || query.get_equipped_item_name == 'gravel'"
+        "condition":"query.get_equipped_item_name == 'water_bucket'"
       },
       "minecraft:ticking": {
         "looping": true,
@@ -48,14 +48,17 @@
         }
       },
       "oomc_fun:supply":{
+        "set_block": {
+          "block_type": "oomc_fun:brewing_container_stage_2"
+        },
         "run_command": {
-          "command":"summon oomc_fun:construct_bp ~ ~0.1 ~"
+          "command":"summon oomc_fun:construct_bucket ~ ~0.1 ~"
         },
         "decrement_stack": {}
       },
       "oomc_fun:process": {
         "run_command": {
-          "command": "function oomc_fun_bp_maker"
+          "command": "function oomc_fun_brewing_container_stage_0"
         }
       }
     },

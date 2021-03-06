@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "oomc_fun:brewing_container_stage_0",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

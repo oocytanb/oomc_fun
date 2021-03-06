@@ -89,9 +89,9 @@ BP が発見されて以来、その良さを知る人々の間で広がり始�
 
 ### 入手
 
-| 材料 | クラフトのレシピ |
-|-|-|
-| 米 (Rice) +<br>水入り瓶 (Water Bottle)| ![recipe_oyakodon](images/recipe_water_of_life.png) |
+醸造器によって、入手することができます。
+
+![factory_brewing_container](images/factory_brewing_container.png)
 
 ### 効果
 
@@ -169,7 +169,27 @@ BP 製造機の登場によって、大量生産が可能になりました。
 
 - ジャック・オ・ランタンを下に置くと、その方向にアイテムを運搬します。
 
-## P 駆動型コンベヤ (P-driven Conveyor)
+## 醸造器 (Brewing Container)
+
+![factory_brewing_container](images/factory_brewing_container.png)
+
+水と米を醸造器に投入することで、命の水を得ることができます。
+
+### 入手
+
+| 材料 | クラフトのレシピ |
+|-|-|
+| 板材のハーフブロック (Wood Slab) +<br>タル (Barrel) +<br>oO ストーン (oO Stone) | ![recipe_brewing_container](images/recipe_brewing_container.png) |
+
+### 振る舞い
+
+- 水バケツ、および、米を醸造器の上に置くか、右クリックして使用すると、命の水に変換されます。
+
+- 醸造器の上に置かれたアイテムは、スタック数にかかわらず、1 つの命の水に変換されます。
+
+- ジャック・オ・ランタンを下に置くと、その方向にアイテムを運搬します。
+
+## コンベヤ (Conveyor)
 
 ![factory_conveyor](images/factory_conveyor.png)
 
@@ -183,7 +203,7 @@ BP 製造機の登場によって、大量生産が可能になりました。
 
 - ジャック・オ・ランタンを下に置くと、その方向にアイテムを運搬します。
 
-## P 駆動型リフター (P-driven Lifter)
+## リフター (Lifter)
 
 ![factory_lifter](images/factory_lifter.png)
 
@@ -191,7 +211,7 @@ BP 製造機の登場によって、大量生産が可能になりました。
 
 | 材料 | クラフトのレシピ |
 |-|-|
-| 鉄格子 (Iron Bars) +<br>鍛冶台 (Smithing Table) +<br>oO ストーン (oO Stone) | ![recipe_lifter](images/recipe_lifter.png) |
+| 鉄格子 (Iron Bars) +<br>鍛冶台 (Smithing Table) +<br>oOCo ストーン (oOCo Stone) | ![recipe_lifter](images/recipe_lifter.png) |
 
 ### 振る舞い
 
@@ -233,6 +253,8 @@ BP 製造機の登場によって、大量生産が可能になりました。
 - 米が好物です。
 
 - 生物の oO とパートナーになり子を産みます。
+
+- バケツを持って、使用すると溶岩を得ることができます。
 
 ### スポーンエッグ
 

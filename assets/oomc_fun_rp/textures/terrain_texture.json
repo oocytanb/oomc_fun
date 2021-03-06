@@ -67,6 +67,18 @@
     "oomc_fun:threshing_machine_west": {
       "textures": "textures/oomc_fun_threshing_machine_west"
     },
+    "oomc_fun:brewing_container_stage_0": {
+      "textures": "textures/oomc_fun_brewing_container_stage_0"
+    },
+    "oomc_fun:brewing_container_stage_1": {
+      "textures": "textures/oomc_fun_brewing_container_stage_1"
+    },
+    "oomc_fun:brewing_container_stage_2": {
+      "textures": "textures/oomc_fun_brewing_container_stage_2"
+    },
+    "oomc_fun:brewing_container_stage_3": {
+      "textures": "textures/oomc_fun_brewing_container_stage_3"
+    },
     "oomc_fun:rice_crop_stage_0": {
       "textures": "textures/blocks/wheat_stage_2"
     },

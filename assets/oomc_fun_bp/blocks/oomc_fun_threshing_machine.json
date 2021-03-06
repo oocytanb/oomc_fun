@@ -69,7 +69,7 @@
       },
       "oomc_fun:supply":{
         "run_command": {
-          "command":"summon oomc_fun:construct_rice ~ ~ ~"
+          "command":"summon oomc_fun:construct_rice ~ ~0.1 ~"
         },
         "decrement_stack": {}
       },
