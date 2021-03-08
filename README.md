@@ -3,6 +3,10 @@
 これは [Add-Ons for Bedrock Edition](https://www.minecraft.net/addons/) について学ぶための、実験的なプロジェクトです。  
 いくつかのゲーム要素を追加します。
 
+[![The BP Factory](https://img.youtube.com/vi/1fsmc1dIYQs/0.jpg)](https://www.youtube.com/watch?v=1fsmc1dIYQs)
+
+**このアドオンは、公式とは関係ありません。**
+
 **このアドオンに登場するものは、架空のものです。実在のものとは関係ありません。**
 
 ## Supported Locales
