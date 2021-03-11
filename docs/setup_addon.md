@@ -18,10 +18,10 @@
 1. "[EX]" という名前でコピーが作成された場合は、そちらで設定を続けます。
   ![setup_addon_05](images/setup_addon_05.png)
 
-1. インポートしたアドオンのリソース パックとビヘイビア パックを有効にします。
+1. インポートしたアドオンを有効にします。  
+  リソース パックの `oomc_fun_rp` を有効にします。
+  「参加にはリソースパックの受け入れが必要」も有効にします。
   ![setup_addon_06](images/setup_addon_06.png)
+
+1. ビヘイビア パックの `oomc_fun_bp` を有効にします。
   ![setup_addon_07](images/setup_addon_07.png)
-
-## Education Edition: Chemistry (オプション)
-
-[教育版マインクラフトの化学学習機能を利用する場合](setup_edu_chemistry.md)

@@ -28,11 +28,11 @@ BP が発見されて以来、その良さを知る人々の間で広がり始�
 - 火薬 (Gunpowder)
 - 革 (Leather)
 - 花 (Flower)
-- 腐った肉 (Rotten Flesh)
+- 腐肉 (Rotten Flesh)
 - 砂岩 (Sandstone)
 - 苗木 (Sapling)
 - Mob の頭 (Mob Head)
-- 羊毛 (Wool)
+- ウール (Wool)
 - レンガ (Brick)
 
 ## 稲 (Sheaf of Rice)
@@ -73,7 +73,7 @@ BP が発見されて以来、その良さを知る人々の間で広がり始�
 
 | 材料 | クラフトのレシピ |
 |-|-|
-| 卵 (Egg) +<br>鶏肉 (Chicken) +<br>米飯 (Cooked Rice) | ![recipe_oyakodon](images/recipe_oyakodon.png) |
+| タマゴ (Egg) +<br>鶏肉 (Chicken) +<br>米飯 (Cooked Rice) | ![recipe_oyakodon](images/recipe_oyakodon.png) |
 
 ## 寿司 (Sushi)
 
@@ -83,7 +83,7 @@ BP が発見されて以来、その良さを知る人々の間で広がり始�
 |-|-|
 | 生魚 (Raw Fish)<sup>1</sup> +<br>米飯 (Cooked Rice) +<br>酢 (Vinegar)+<br>砂糖 (Sugar)| ![recipe_oyakodon](images/recipe_sushi.png) |
 
-<sup>1</sup> 生鮭 (Raw Salmon)、生鱈 (Raw Cod)、フグ (Pufferfish)
+<sup>1</sup> 生鮭 (Raw Salmon)、生のタラ (Raw Cod)、フグ (Pufferfish)
 
 ## 命の水 (Water of Life)
 
@@ -132,7 +132,7 @@ BP 製造機の登場によって、大量生産が可能になりました。
 
 | 材料 | クラフトのレシピ |
 |-|-|
-| 鉄ブロック (Block of Iron) +<br>鍛冶台 (Smithing Table) +<br>oO ストーン (oO Stone) | ![recipe_bp_maker](images/recipe_bp_maker.png) |
+| 鉄のブロック (Block of Iron) +<br>鍛冶台 (Smithing Table) +<br>oO ストーン (oO Stone) | ![recipe_bp_maker](images/recipe_bp_maker.png) |
 
 ### 振る舞い
 
@@ -159,7 +159,7 @@ BP 製造機の登場によって、大量生産が可能になりました。
 
 | 材料 | クラフトのレシピ |
 |-|-|
-| 鎖 (Chain) +<br>鍛冶台 (Smithing Table) +<br>oO ストーン (oO Stone) | ![recipe_threshing_machine](images/recipe_threshing_machine.png) |
+| チェーン (Chain) +<br>鍛冶台 (Smithing Table) +<br>oO ストーン (oO Stone) | ![recipe_threshing_machine](images/recipe_threshing_machine.png) |
 
 ### 振る舞い
 
@@ -179,7 +179,7 @@ BP 製造機の登場によって、大量生産が可能になりました。
 
 | 材料 | クラフトのレシピ |
 |-|-|
-| 板材のハーフブロック (Wood Slab) +<br>タル (Barrel) +<br>oO ストーン (oO Stone) | ![recipe_brewing_container](images/recipe_brewing_container.png) |
+| 木材のハーフブロック (Wood Slab) +<br>タル (Barrel) +<br>oO ストーン (oO Stone) | ![recipe_brewing_container](images/recipe_brewing_container.png) |
 
 ### 振る舞い
 
