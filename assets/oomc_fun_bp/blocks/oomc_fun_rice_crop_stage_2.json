@@ -20,7 +20,8 @@
         }
       },
       "minecraft:entity_collision": false,
-      "minecraft:pick_collision": true
+      "minecraft:pick_collision": true,
+      "minecraft:breakonpush": true
     }
   }
 }
