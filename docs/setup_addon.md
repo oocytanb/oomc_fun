@@ -25,3 +25,7 @@
 1. リソース パックの `oomc_fun_rp` を有効化します。
   「参加にはリソースパックの受け入れが必要」も有効化します。
   ![setup_addon_07](images/setup_addon_07.png)
+
+## アドオンの更新
+
+[アドオンの更新](./setup_update_addon.md)

@@ -1,8 +1,5 @@
 import { promises as fs } from 'fs';
 import * as semver from 'semver';
-import { DOMParser, XMLSerializer } from 'xmldom';
-
-import { render as render_svg } from 'svgexport';
 
 const Settings = {
   json_spaces: 2,
@@ -19,8 +16,13 @@ interface PartialMcpackManifestComponent {
   version: McpackVersion;
 }
 
+interface PartialMcpackManifestHeader extends PartialMcpackManifestComponent {
+  name: string;
+  description?: string;
+}
+
 interface PartialMcpackManifestJson {
-  header: PartialMcpackManifestComponent;
+  header: PartialMcpackManifestHeader;
   modules?: Array<PartialMcpackManifestComponent>;
   dependencies?: Array<PartialMcpackManifestComponent>;
 }
@@ -72,37 +74,6 @@ const semver_to_mcpack_version = (ver_obj: semver.SemVer): McpackVersion => {
   return [ver_obj.major, ver_obj.minor, ver_obj.patch];
 };
 
-const process_mcpack_icon = async (
-  ver_obj: semver.SemVer,
-  svg_path: string,
-  png_path: string
-) => {
-  const contents = await fs.readFile(svg_path, 'utf-8');
-  const doc = new DOMParser().parseFromString(contents);
-  const tspan_ = doc.getElementById('tspan_pack_version');
-  if (!tspan_) {
-    throw new TypeError('Invalid svg icon: ' + svg_path);
-  }
-
-  const version_string = tspan_.textContent || '';
-  const has_change = !version_string.endsWith(ver_obj.version);
-
-  if (has_change) {
-    tspan_.textContent = 'Version ' + ver_obj.version;
-
-    const ser_doc = new XMLSerializer().serializeToString(doc);
-    await fs.writeFile(svg_path, ser_doc, 'utf-8');
-
-    await render_svg({ input: [svg_path], output: [png_path] }, (err_) => {
-      if (err_) {
-        throw new Error(err_);
-      }
-    });
-  }
-
-  return has_change;
-};
-
 const process_mcpack_manifest_component = (
   ver_obj: semver.SemVer,
   uuid_set: Set<string>,
@@ -125,6 +96,23 @@ const process_mcpack_manifest_component = (
   }
 
   return manifest_component;
+};
+
+const process_mcpack_manifest_header = (
+  ver_obj: semver.SemVer,
+  uuid_set: Set<string>,
+  manifest_header: PartialMcpackManifestHeader
+) => {
+  const header = process_mcpack_manifest_component(
+    ver_obj,
+    uuid_set,
+    manifest_header
+  ) as PartialMcpackManifestHeader;
+
+  const description = (header.name ?? '') + ' Version ' + ver_obj.version;
+  return header.description && header.description !== description
+    ? { ...header, description: description }
+    : header;
 };
 
 const process_mcpack_manifest_component_list = (
@@ -154,7 +142,7 @@ const process_mcpack_manifest_version = async (
 
   const new_manifest = { ...manifest_json };
 
-  new_manifest.header = process_mcpack_manifest_component(
+  new_manifest.header = process_mcpack_manifest_header(
     ver_obj,
     uuid_set,
     manifest_json.header
@@ -202,22 +190,10 @@ const process_mcpack_manifest_version = async (
     'assets/oomc_fun_bp/manifest.json'
   );
 
-  await process_mcpack_icon(
-    ver_obj,
-    'assets/svg/oomc_fun_bp_pack_icon.svg',
-    'assets/oomc_fun_bp/pack_icon.png'
-  );
-
   await process_mcpack_manifest_version(
     ver_obj,
     mcpack_uuid_set,
     'assets/oomc_fun_rp/manifest.json'
-  );
-
-  await process_mcpack_icon(
-    ver_obj,
-    'assets/svg/oomc_fun_rp_pack_icon.svg',
-    'assets/oomc_fun_rp/pack_icon.png'
   );
 
   await process_mcpack_manifest_version(
