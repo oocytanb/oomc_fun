@@ -6,6 +6,9 @@
     "declarationMap": false,
     "sourceMap": false,
     "rootDir": "src",
+    "paths": {
+      "svgexport": ["./build_scripts/svgexport"]
+    },
     "outDir": "./assets/oomc_fun_bp/scripts/",
     "strict": true,
     "moduleResolution": "node",

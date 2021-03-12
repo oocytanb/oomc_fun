@@ -8,7 +8,7 @@
 
 1. 既存の世界で利用する場合は、コピーを取ったうえで作業します。
 
-1. ゲームの設定から、「ホリデー クリエイターの特徴」「オリジナル バイオームの作成」「追加の改造機能」「チートの実行」を有効にします。  
+1. ゲームの設定から、「ホリデー クリエイターの特徴」「オリジナル バイオームの作成」「追加の改造機能」「チートの実行」を有効化します。  
   ![setup_addon_03](images/setup_addon_03.png)
   Turn on "Holiday Creator Features", "Creation of Custom Biomes", "Additional Modding Capabilities" and "Cheats".
 
@@ -18,10 +18,10 @@
 1. "[EX]" という名前でコピーが作成された場合は、そちらで設定を続けます。
   ![setup_addon_05](images/setup_addon_05.png)
 
-1. インポートしたアドオンを有効にします。  
-  リソース パックの `oomc_fun_rp` を有効にします。
-  「参加にはリソースパックの受け入れが必要」も有効にします。
+1. インポートしたアドオンを有効化します。  
+  ビヘイビア パックの `oomc_fun_bp` を有効化します。
   ![setup_addon_06](images/setup_addon_06.png)
 
-1. ビヘイビア パックの `oomc_fun_bp` を有効にします。
+1. リソース パックの `oomc_fun_rp` を有効化します。
+  「参加にはリソースパックの受け入れが必要」も有効化します。
   ![setup_addon_07](images/setup_addon_07.png)
