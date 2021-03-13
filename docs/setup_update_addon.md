@@ -3,12 +3,12 @@
 1. 既存の世界のコピーを取ったうえで作業します。
   ![setup_update_addon_01](images/setup_update_addon_01.png)
 
-1. 古いバージョンのアドオンを削除します。  
-  ビヘイビア パックの `oomc_fun_bp` を削除します。
+1. 古いバージョンのアドオンを無効化、または削除します。  
+  ビヘイビア パックの `oomc_fun_bp` を無効化、または削除します。
   ![setup_update_addon_02](images/setup_update_addon_02.png)
   ![setup_update_addon_03](images/setup_update_addon_03.png)
 
-1. リソース パックの `oomc_fun_rp` を削除します。
+1. リソース パックの `oomc_fun_rp` を無効化、または削除します。
   ![setup_update_addon_04](images/setup_update_addon_04.png)
   ![setup_update_addon_05](images/setup_update_addon_05.png)
 
