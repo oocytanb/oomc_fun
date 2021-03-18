@@ -26,6 +26,10 @@
 
 - [Node.js](https://nodejs.org/) >= 14
 
+- バージョン番号を上げる場合は、[package.json](./package.json) の
+  `version` フィールドを書き換えたうえで、ビルドを行います。
+  アドオンの `manifest.json` が自動的に更新されます。
+
 ```
 npm install
 npm run build
