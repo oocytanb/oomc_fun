@@ -24,7 +24,7 @@
 
 ## Build
 
-- [Node.js](https://nodejs.org/) >= 14
+- [Node.js](https://nodejs.org/) >= 16
 
 - バージョン番号を上げる場合は、[package.json](./package.json) の
   `version` フィールドを書き換えたうえで、ビルドを行います。
